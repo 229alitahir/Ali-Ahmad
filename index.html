@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio</title>
+
+    <style>
+        body {
+            background-color: lightblue;
+            font-family: Arial;
+            color: black;
+        }
+
+        header {
+            background-color: navy;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav {
+            background-color: black;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 10px;
+        }
+
+        .box {
+            background-color: white;
+            padding: 15px;
+            margin: 15px;
+            box-shadow: 2px 2px 5px gray;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        th {
+            background-color: navy;
+            color: white;
+        }
+
+        input, textarea {
+            padding: 8px;
+            margin: 5px;
+        }
+
+        button {
+            background-color: navy;
+            color: white;
+            padding: 8px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Ali Ahmed</h1>
+    <p>BS Computer Science Student</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="box" id="about">
+    <h2>About Me</h2>
+    <p>My name is Ali Ahmed.</p>
+    <p>I am studying BS Computer Science.</p>
+    <p>I am interested in programming and web development.</p>
+</div>
+
+<div class="box" id="education">
+    <h2>My Education</h2>
+
+    <table>
+        <tr>
+            <th>Qualification</th>
+            <th>Institute</th>
+            <th>Marks</th>
+        </tr>
+
+        <tr>
+            <td>Matric</td>
+            <td>The Educators, Wah Campus</td>
+            <td>819 / 1100</td>
+        </tr>
+
+        <tr>
+            <td>Intermediate (Science)</td>
+            <td>College</td>
+            <td>735 / 1100</td>
+        </tr>
+
+        <tr>
+            <td>BS Computer Science</td>
+            <td>University of Haripur</td>
+            <td>Currently Studying</td>
+        </tr>
+    </table>
+</div>
+
+<div class="box" id="skills">
+    <h2>My Skills</h2>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Python</li>
+        <li>Database</li>
+    </ul>
+</div>
+
+<div class="box">
+    <h2>My Services</h2>
+    <p>Basic Website Design</p>
+    <p>Web Development</p>
+    <p>Programming</p>
+</div>
+
+<div class="box" id="contact">
+    <h2>Contact Me</h2>
+
+    <form>
+        Name:<br>
+        <input type="text" placeholder="Enter your name"><br>
+
+        Email:<br>
+        <input type="email" placeholder="Enter your email"><br>
+
+        Message:<br>
+        <textarea placeholder="Write your message"></textarea><br>
+
+        <button type="button">Submit</button>
+    </form>
+</div>
+
+</body>
+</html>
